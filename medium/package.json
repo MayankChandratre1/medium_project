@@ -5,8 +5,10 @@
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
+    "@mayankc/medium-validation": "^1.0.1",
     "@prisma/client": "^5.16.1",
     "@prisma/extension-accelerate": "^1.1.0",
+    "@yashvardhandhondge/medium": "^1.0.0",
     "bcrypt": "^5.1.1",
     "hono": "^4.4.12",
     "jsonwebtoken": "^9.0.2",
